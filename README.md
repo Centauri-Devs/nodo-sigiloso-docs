@@ -18,12 +18,53 @@ layout:
     visible: true
 ---
 
-# Welcome
 
-Welcome to the GitBook Starter Template! Here you'll get an overview of all the amazing features GitBook offers to help you build beautiful, interactive documentation.
+# Nodo Sigiloso 🐿️
 
-You'll see some of the best parts of GitBook in action — and find help on how you can turn this template into your own.
+Bienvenid@ a la documentación oficial de **Nodo Sigiloso**, tu compañero discreto para operar infraestructura blockchain y construir exploradores multi-chain.
 
-### Jump right in
+Tanto si eres operador de nodos, desarrollador curioso o simplemente quieres consultar datos de blockchains sin depender de terceros… este proyecto es para ti.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="getting-started/publish-your-docs.md">publish-your-docs.md</a></td></tr></tbody></table>
+## 🚀 ¿Qué es Nodo Sigiloso?
+
+Nodo Sigiloso es una iniciativa abierta para ayudarte a desplegar y mantener nodos blockchain de forma segura, económica y soberana.
+
+Ofrecemos:
+
+- 🧱 Guías para montar tu propia infraestructura: nodos de Bitcoin, Ethereum (L2s) y NEAR, con indexadores opcionales.
+- 🔍 Una API llamada Explorador para consultar datos blockchain en tiempo real, ya sea desde tus propios nodos o desde nuestros endpoints públicos.
+
+**Nuestra misión**: hacer que operar nodos sea algo accesible, elegante y enfocado en la privacidad — para los builders, por los builders.
+
+## 📚 Estructura de la documentación
+
+La documentación está dividida en dos secciones principales:
+
+### 1. 🛠 Corre tu propia infraestructura
+
+Pasos para instalar y operar nodos completos o indexadores de:
+
+  - Bitcoin — Nodo completo o podado
+  - Ethereum / L2s — Incluye indexadores personalizados y proveedores RPC
+  - NEAR Protocol — Con configuración para validadores
+
+Cada guía incluye recomendaciones de hardware, configuración con Docker, sincronización y monitoreo.
+
+### 2. 🔎 Explorador Sigiloso API
+
+La explorador_sigiloso_api es un backend multi-cadena que te permite:
+
+Ver actividad por dirección BTC
+
+Consultar deltas de bloques (entradas, salidas, recompensas)
+
+Acceder a estadísticas on-chain personalizadas
+
+Ideal para crear dashboards, alertas, bots o alimentar tus propias apps — todo esto usando tus propios nodos o los nuestros.
+
+🧭 Primeros pasos
+<table data-view="cards"> <thead> <tr> <th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th> </tr> </thead> <tbody> <tr> <td><strong>Infraestructura</strong></td> <td>Guía para correr nodos BTC, ETH y NEAR</td> <td></td><td></td> <td><a href="infra/overview.md">infra/overview.md</a></td> </tr> <tr> <td><strong>API Explorador</strong></td> <td>Consulta datos en tiempo real</td> <td></td><td></td> <td><a href="api/intro.md">api/intro.md</a></td> </tr> <tr> <td><strong>Despliegue con Docker</strong></td> <td>Corre todo local o en servidor</td> <td></td><td></td> <td><a href="deploy/docker.md">deploy/docker.md</a></td> </tr> </tbody> </table>
+🧪 Esta documentación está en desarrollo activo — se irá actualizando semanalmente mientras mejoramos el explorador, la API y los manuales de despliegue.
+
+¿Quieres contribuir o dejar tu estrella? Visita el repo:
+👉 github.com/josemariasosa/explorador-sigiloso
