@@ -4,7 +4,7 @@ icon: floppy-disk
 
 # Almacenamiento SSD
 
-### 1. Listar los discos disponibles
+## 1. Listar los discos disponibles
 
 Para localizar el disco, físico o virtual, en el que se va a trabajar, se puede utilizar el comando **lsblk**.
 
@@ -42,7 +42,7 @@ $ diskutil list
    6:                APFS Volume VM                      5.4 GB     disk3s6
 ```
 
-### 2. Espacio disponible y utilizado
+## 2. Espacio disponible y utilizado
 
 Antes de comenzar, asegúrate de que tienes un SSD montado con suficiente espacio libre. Esto es crítico para correr un nodo Bitcoin confiable.
 
@@ -54,7 +54,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda        916G  360G  510G  42% /media/honey/bitcoin_data
 ```
 
-### 3. Montaje y desmontaje del SSD
+## 3. Montaje y desmontaje del SSD
 
 ```bash
 # Montar
