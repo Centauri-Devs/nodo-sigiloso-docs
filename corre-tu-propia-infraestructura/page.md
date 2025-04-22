@@ -2,117 +2,196 @@
 icon: bitcoin
 ---
 
-# Bitcoin
+# Nodo de Bitcoin
 
-## Corre tu propia infraestructura
-
-Correr tu propia infraestructura Bitcoin no solo es útil: es una declaración radical de soberanía digital. En esta sección aprenderás a correr tu propio nodo de Bitcoin y a indexarlo con Esplora, usando `docker-compose`, y asegurándote de que todo corre sobre almacenamiento sólido y fiable.
+## 🛠️ Corre tu propia infraestructura
 
 > Esta sección se actualizó por última vez el **2025-04-21**.
 
-### 📦 Requisitos de almacenamiento
+Correr tu propia infraestructura Bitcoin no solo es útil: **es una declaración radical de soberanía digital**. En esta sección aprenderás a correr tu propio nodo de Bitcoin e indexarlo con Esplora, utilizando `docker-compose` y asegurándote de que todo corra sobre almacenamiento sólido y fiable.
 
-Para correr la infraestructura completa de Bitcoin + Esplora se recomienda tener:
+Utilizaremos el repositorio [`explorador_sigiloso`](https://github.com/josemariasosa/explorador-sigiloso) como base para desplegar la infraestructura.
 
-* 🟢 **Bitcoin Core (cadena principal):** 500 GB
-* 🔵 **Esplora indexer (Electrs + esplora backend):** \~300 GB
+### 🔧 ¿Qué componentes incluye?
 
-> ⚠️ Total sugerido: **1 TB de almacenamiento SSD (EXT4 si es en Linux)**
+La infraestructura que implementaremos consta de:
 
-### 🛠 Requerimientos previos
+* 🟠 **Nodo de Bitcoin Core**
+* 🐉 **Indexador Esplora** (Electrs + backend)
 
-* Docker y Docker Compose
-* Acceso a una máquina Linux (VM o física)
-* Conexión estable para sincronizar toda la blockchain de Bitcoin
+## ⚙️ Requisitos para correr tu nodo de Bitcoin
 
-### 🚀 Pasos para levantar la infraestructura
+Para levantar la infraestructura completa de **Bitcoin Core** junto con el indexador **Esplora**, necesitas lo siguiente:
 
-####
+#### 📦 Almacenamiento recomendado
 
-#### 2. Clona el repositorio del Explorador Sigiloso 🌞
+* 🟢 **Bitcoin Core** (cadena principal): 500 GB
+* 🔵 **Esplora** (Electrs + backend): \~300 GB
+* ⚠️ **Total sugerido**: **1 TB SSD** (formateado en EXT4 si usas Linux)
 
-y corre el nodo Bitcoin
+#### 🛠 Requisitos previos
 
-```
-git clone git@github.com:josemariasosa/explorador-sigiloso.git
-cd explorador-sigiloso
-docker compose up -d bitcoin
-```
+* Tener **Docker** y **Docker Compose** instalados
+* Acceso a una máquina Linux (puede ser física o una VM)
+* Conexión estable a Internet (se descargará toda la blockchain de Bitcoin)
 
-**¿Qué hace el servicio `bitcoin` del docker-compose?**
+## 🏗️ Levantar la Infraestructura
 
-Este contenedor levanta una instancia de `bitcoind` (Bitcoin Core) con soporte para:
+### 1. 🌞 Clona el repositorio del Explorador Sigiloso
 
-* `txindex=1`: permite indexar todas las transacciones (clave para exploradores y análisis de bloques)
-* `rpcbind=0.0.0.0` y `rpcallowip=0.0.0.0/0`: habilita llamadas RPC externas (útil para explorador)
-* `wallet=default`: una wallet por defecto que se carga automáticamente
+y corre el nodo Bitcoin, asegurándote de que Docker esté corriendo.
 
-La configuración se almacena en tu disco montado en `/mnt/bitcoin-data`, y se mantiene independiente del contenedor.
-
-Verifica que tu nodo funciona:
-
-```
-docker exec -it bitcoin-mainnet bitcoin-cli -rpcuser=bitcoin -rpcpassword=bitcoin123 getblockchaininfo
+```bash
+$ git clone https://github.com/josemariasosa/explorador-sigiloso.git
+$ cd explorador-sigiloso
 ```
 
-#### 3. Levanta el explorador y la API
+### 2. Revisar el archivo Docker Compose
 
+Var una revisada al archivo **docker-compose.yml,** y asegurarse que el volumen sea el correcto, en donde hemos de almacenar el nodo de Bitcoin.
+
+```yaml
+  bitcoin:
+    image: bitcoin/bitcoin:latest
+    container_name: bitcoin-mainnet
+    restart: unless-stopped
+    ports:
+      - "8332:8332"  # RPC
+      - "8333:8333"  # P2P
+    volumes:
+      - /media/honey/bitcoin_data/bitcoin-node:/home/bitcoin/.bitcoin
 ```
-docker compose up -d --build explorador_api
+
+### 3. Revisar el archivo bitcoin de Configuración
+
+El archivo **bitcoin.conf** deberá estar presente en el directorio del volumen.
+
+```bash
+$ sudo ls /media/honey/bitcoin_data/bitcoin-node
+
+banlist.json  blocks      default            mempool.dat
+bitcoin.conf  chainstate  fee_estimates.dat  peers.dat
+bitcoind.pid  debug.log   indexes            settings.json
 ```
 
-Este servicio corre la API REST que conecta con tu nodo para visualizar información como balances, bloques y transacciones. La puedes consultar así:
+Y su contenido luce así.
 
-```
-curl http://localhost:3000/btc/last-block-delta
-```
+```bash
+$ sudo cat /media/honey/bitcoin_data/bitcoin-node/bitcoin.conf
 
-### 🧠 Configuración esencial
-
-Tu archivo `bitcoin.conf` debería estar ubicado en el SSD en `/mnt/bitcoin-data/bitcoin.conf`, y contener:
-
-```
+# General options
 txindex=1
 rpcuser=bitcoin
 rpcpassword=bitcoin123
 rpcbind=0.0.0.0
 rpcallowip=0.0.0.0/0
 printtoconsole=1
+
+# Load the default wallet at startup
 wallet=default
 ```
 
-Esto asegura que tu wallet se cargue automáticamente en cada arranque del nodo y que la API pueda acceder al RPC.
+### 4. 💳 Confirmar la Wallet con bitcoin-cli
 
-### 🔧 Comandos útiles para usuarios Bitcoin
+Para que un nodo de bitcoin pueda ser consultado, incluso si no está completamente sincronizado, necesita tener cargada una wallet. En el archivo **bitcoin.conf,** añadimos una wallet default, o predeterminada.&#x20;
 
+Para asegurarse de que la wallet está cargada, es posible ejecutar comandos directamente al nodo mente el `bitcoin-cli`.
+
+```bash
+# Listar wallets disponibles
+$ docker exec -it bitcoin-mainnet bitcoin-cli \
+    -rpcuser=bitcoin \
+    -rpcpassword=bitcoin123 \
+    listwallets
+
+[
+  "default"
+]
+
+# Info adicional de la wallet
+$ docker exec -it bitcoin-mainnet bitcoin-cli \
+    -rpcuser=bitcoin \
+    -rpcpassword=bitcoin123 \
+    getwalletinfo
+
+{
+  "walletname": "default",
+  "walletversion": 169900,
+  "format": "sqlite",
+  "balance": 0.00000000,
+  ...
+}
 ```
+
+Si no añadimos el archivo `bitcoin.conf` entonces podemos crear la wallet directamente desde la terminal.
+
+```bash
 # Crear la wallet si no existe
-docker exec -it bitcoin-mainnet bitcoin-cli -rpcuser=bitcoin -rpcpassword=bitcoin123 createwallet default
+$ docker exec -it bitcoin-mainnet bitcoin-cli \
+    -rpcuser=bitcoin \
+    -rpcpassword=bitcoin123 \
+    createwallet default
+```
 
+### 5. Listos para correr el nodo de Bitcoin
+
+Si es la primera vez que se corre, el nodo comenzará a sincronizarse desde cero, este proceso es muy tardado, y se verá en la terminal el avance, mediante los **logs** de Docker.
+
+```bash
+$ docker compose up -d bitcoin
+$ docker logs -f bitcoin-mainnet
+
+# Para detener el nodo, SIEMPRE utilizar el comando
+$ docker compose down
+```
+
+<div data-full-width="false"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Bitcoin Node Syncing</p></figcaption></figure></div>
+
+### 6. ☎️ Llamar a nuestro nodo local
+
+Verifica que tu nodo funciona:
+
+```bash
+# Obtener detalles de la cadena
+$ docker exec -it bitcoin-mainnet bitcoin-cli \
+    -rpcuser=bitcoin \
+    -rpcpassword=bitcoin123 \
+    getblockchaininfo
+
+{
+  "chain": "main",
+  "blocks": 613236,
+  "headers": 893552,
+  "bestblockhash": "000000000000000000030bdf3d6c86419b1a42319efa530147d2e793f6592bcc",
+  ...
+}
+```
+
+Para obtener el último bloque, e información adicional sobre el mismo, entonces llamar:
+
+```bash
 # Obtener el último bloque
-docker exec -it bitcoin-mainnet bitcoin-cli -rpcuser=bitcoin -rpcpassword=bitcoin123 getbestblockhash
+$ docker exec -it bitcoin-mainnet bitcoin-cli \
+    -rpcuser=bitcoin \
+    -rpcpassword=bitcoin123 \
+    getbestblockhash
 
-# Obtener detalles de un bloque
-docker exec -it bitcoin-mainnet bitcoin-cli -rpcuser=bitcoin -rpcpassword=bitcoin123 getblock <BLOCK_HASH> 2
+0000000000000000000b70857493d5c8ab06fbe7a00ba3b45812b45c94df4adf
+
+# Obtener detalles del bloque
+$ docker exec -it bitcoin-mainnet bitcoin-cli \
+    -rpcuser=bitcoin \
+    -rpcpassword=bitcoin123 \
+    getblock 0000000000000000000b70857493d5c8ab06fbe7a00ba3b45812b45c94df4adf 2
 ```
 
-Consulta vía API:
 
-```
-curl http://localhost:3000/btc/balance/1DrK44np3gMKuvcGeFVv9Jk67zodP52eMu
-```
 
-### 📤 Cierre y mantenimiento
 
-Antes de apagar tu nodo:
 
-```
-docker compose down
-sudo umount /mnt/bitcoin-data
-sudo shutdown now
-```
 
-Si usas Mac y UTM:
+
+
 
 ```
 diskutil unmount /Volumes/bitcoin_data
@@ -125,5 +204,3 @@ diskutil unmount /Volumes/bitcoin_data
 En Nodo Sigiloso, correr un nodo no es un hobby: es una convicción. Creemos que ser parte de la red es el siguiente paso lógico para un bitcoiner que ya no solo quiere "hodlear", sino participar en la infraestructura misma.
 
 Este documento es bitácora, manual, guía de supervivencia. Ayúdanos a poblar el bosque de nodos soberanos. Correr tu propio nodo no te da solo control: te da conocimiento, privacidad, y dignidad digital.
-
-> Próximo capítulo: cómo usar la API de `explorador_sigiloso_api` para visualizar bloques, transacciones y balances. 🌐📊

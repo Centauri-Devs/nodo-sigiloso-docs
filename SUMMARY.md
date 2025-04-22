@@ -4,7 +4,7 @@
 
 ## 📡 Corre tu propia infraestructura
 
-* [Bitcoin](corre-tu-propia-infraestructura/page.md)
+* [Nodo de Bitcoin](corre-tu-propia-infraestructura/page.md)
 * [Ethereum](corre-tu-propia-infraestructura/ethereum.md)
 
 ***
