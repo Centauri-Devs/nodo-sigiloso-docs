@@ -5,6 +5,7 @@
 ## 📡 Corre tu propia infraestructura
 
 * [Page](corre-tu-propia-infraestructura/page.md)
+* [Nodo de Bitcoin](corre-tu-propia-infraestructura/nodo-de-bitcoin.md)
 * [Indexador Esplora](corre-tu-propia-infraestructura/indexador-esplora.md)
 * [Ethereum](corre-tu-propia-infraestructura/ethereum.md)
 
