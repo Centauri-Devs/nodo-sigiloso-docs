@@ -6,7 +6,7 @@ icon: floppy-disk
 
 ### 1. Listar los discos disponibles
 
-Para localizar el disco, físico o virtual, en el que se va a trabajar, se puede utilizar el comando \*\*lsblk\*\*.
+Para localizar el disco, físico o virtual, en el que se va a trabajar, se puede utilizar el comando **lsblk**.
 
 ```bash
 $ lsblk
@@ -18,7 +18,7 @@ mmcblk0     179:0    0  59.6G  0 disk
 `-mmcblk0p2 179:2    0  59.1G  0 part /
 ```
 
-En Mac, se puede utilizar \*\*diskutil list\*\*.
+En Mac, se puede utilizar **diskutil list**.
 
 ```bash
 $ diskutil list
