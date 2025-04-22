@@ -1,10 +1,14 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Page](page.md)
+
+## 📡 Corre tu propia infraestructura
+
+* [Bitcoin](corre-tu-propia-infraestructura/page.md)
 
 ## Getting Started
 
+* [Corre tu propia infraestructura](getting-started/corre-tu-propia-infraestructura.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Publish your docs](getting-started/publish-your-docs.md)
 
