@@ -52,7 +52,9 @@ sudo mount /dev/sda /mnt/bitcoin-data
 sudo umount /mnt/bitcoin-data
 ```
 
-#### 2. Clona el repositorio y corre el nodo Bitcoin
+#### 2. Clona el repositorio del Explorador Sigiloso 🌞
+
+y corre el nodo Bitcoin
 
 ```
 git clone git@github.com:josemariasosa/explorador-sigiloso.git
