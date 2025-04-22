@@ -1,6 +1,7 @@
 ---
 icon: ethereum
+coverY: 0
 ---
 
-# Correr tu propia infra
+# Page
 
