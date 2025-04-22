@@ -180,6 +180,19 @@ $ docker exec -it bitcoin-mainnet bitcoin-cli \
     -rpcuser=bitcoin \
     -rpcpassword=bitcoin123 \
     getblock 0000000000000000000b70857493d5c8ab06fbe7a00ba3b45812b45c94df4adf 2
+    
+{
+  "hash": "0000000000000000000b70857493d5c8ab06fbe7a00ba3b45812b45c94df4adf",
+  "confirmations": 16,
+  "height": 613255,
+  "version": 536870912,
+  "versionHex": "20000000",
+  "merkleroot": "16c916e623811beb5892d21a1cada8c1bdc64b97d6e08d78016d08352b3e7631",
+  "time": 1579257023,
+  "mediantime": 1579250177,
+  "nonce": 295860742,
+  ...
+}
 ```
 
 ## 🌳 Filosofía del Nodo Sigiloso
