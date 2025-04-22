@@ -184,17 +184,7 @@ $ docker exec -it bitcoin-mainnet bitcoin-cli \
     getblock 0000000000000000000b70857493d5c8ab06fbe7a00ba3b45812b45c94df4adf 2
 ```
 
-
-
-
-
-
-
-
-
-> 🧠 No desconectes el SSD sin desmontarlo. Recuerda que tu nodo es un monje zen: necesita cerrar con paz.
-
-### 🌳 Filosofía del Nodo Sigiloso
+## 🌳 Filosofía del Nodo Sigiloso
 
 En Nodo Sigiloso, correr un nodo no es un hobby: es una convicción. Creemos que ser parte de la red es el siguiente paso lógico para un bitcoiner que ya no solo quiere "hodlear", sino participar en la infraestructura misma.
 

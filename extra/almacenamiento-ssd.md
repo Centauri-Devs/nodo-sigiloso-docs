@@ -70,3 +70,5 @@ Con Mac,
 ```bash
 $ diskutil unmount /Volumes/bitcoin_data
 ```
+
+> 🧠 No desconectes el SSD sin desmontarlo. Recuerda que tu nodo es un monje zen: necesita cerrar con paz.
