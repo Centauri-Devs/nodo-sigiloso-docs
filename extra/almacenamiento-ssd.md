@@ -58,9 +58,15 @@ Filesystem      Size  Used Avail Use% Mounted on
 
 ```bash
 # Montar
-sudo mkdir -p /mnt/bitcoin-data
-sudo mount /dev/sda /mnt/bitcoin-data
+$ sudo mkdir -p /mnt/bitcoin-data
+$ sudo mount /dev/sda /mnt/bitcoin-data
 
 # Desmontar
-sudo umount /mnt/bitcoin-data
+$ sudo umount /mnt/bitcoin-data
+```
+
+Con Mac,
+
+```bash
+$ diskutil unmount /Volumes/bitcoin_data
 ```

@@ -17,7 +17,6 @@ Utilizaremos el repositorio [`explorador_sigiloso`](https://github.com/josemaria
 La infraestructura que implementaremos consta de:
 
 * 🟠 **Nodo de Bitcoin Core**
-* 🐉 **Indexador Esplora** (Electrs + backend)
 
 ## ⚙️ Requisitos para correr tu nodo de Bitcoin
 
@@ -192,10 +191,6 @@ $ docker exec -it bitcoin-mainnet bitcoin-cli \
 
 
 
-
-```
-diskutil unmount /Volumes/bitcoin_data
-```
 
 > 🧠 No desconectes el SSD sin desmontarlo. Recuerda que tu nodo es un monje zen: necesita cerrar con paz.
 
