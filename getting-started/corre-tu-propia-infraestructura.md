@@ -1,2 +1,0 @@
-# Corre tu propia infraestructura
-

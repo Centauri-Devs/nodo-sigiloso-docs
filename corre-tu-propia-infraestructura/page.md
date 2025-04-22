@@ -27,30 +27,7 @@ Para correr la infraestructura completa de Bitcoin + Esplora se recomienda tener
 
 ### 🚀 Pasos para levantar la infraestructura
 
-#### 1. Asegurarse de disponer del almacenamiento suficiente
-
-Antes de comenzar, asegúrate de que tienes un SSD montado con suficiente espacio libre. Esto es crítico para correr un nodo Bitcoin confiable.
-
-```
-# Verifica tus discos conectados
-lsblk
-
-# Verifica el espacio disponible
-$ df -h /media/honey/bitcoin_data/
-Filesystem      Size  Used Avail Use% Mounted on
-/dev/sda        916G  360G  510G  42% /media/honey/bitcoin_data
-```
-
-Montaje y desmontaje del SSD:
-
-```
-# Montar
-sudo mkdir -p /mnt/bitcoin-data
-sudo mount /dev/sda /mnt/bitcoin-data
-
-# Desmontar
-sudo umount /mnt/bitcoin-data
-```
+####
 
 #### 2. Clona el repositorio del Explorador Sigiloso 🌞
 

@@ -5,10 +5,14 @@
 ## 📡 Corre tu propia infraestructura
 
 * [Bitcoin](corre-tu-propia-infraestructura/page.md)
+* [Ethereum](corre-tu-propia-infraestructura/ethereum.md)
+
+***
+
+* [Near Protocol](near-protocol.md)
 
 ## Getting Started
 
-* [Corre tu propia infraestructura](getting-started/corre-tu-propia-infraestructura.md)
 * [Quickstart](getting-started/quickstart.md)
 * [Publish your docs](getting-started/publish-your-docs.md)
 
@@ -20,3 +24,7 @@
 * [Interactive blocks](basics/interactive-blocks.md)
 * [OpenAPI](basics/openapi.md)
 * [Integrations](basics/integrations.md)
+
+## Extra
+
+* [Almacenamiento SSD](extra/almacenamiento-ssd.md)
