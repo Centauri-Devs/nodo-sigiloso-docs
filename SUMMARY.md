@@ -29,3 +29,4 @@
 ## Extra
 
 * [Almacenamiento SSD](extra/almacenamiento-ssd.md)
+* [Uso de screen en Linux](extra/uso-de-screen-en-linux.md)
