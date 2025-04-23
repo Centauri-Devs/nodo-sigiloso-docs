@@ -1,3 +1,7 @@
+---
+icon: server
+---
+
 # Uso de screen en Linux
 
 Tengo mi servidor pequeno, y para permitirle correr multiples trabajos al mismo tiempo. O lo que viene siendo lo mismo, dejar corriendo algo. Se utiliza el comando de Linux screen.
