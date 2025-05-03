@@ -28,6 +28,6 @@
 
 ## Extra
 
-* [Cómo extender la partición LVM default en Ubuntu](extra/como-extender-la-particion-lvm-default-en-ubuntu.md)
+* [Cómo extender la partición LVM por defecto en Ubuntu 24.04](extra/como-extender-la-particion-lvm-por-defecto-en-ubuntu-24.04.md)
 * [Almacenamiento SSD](extra/almacenamiento-ssd.md)
 * [Uso de screen en Linux](extra/uso-de-screen-en-linux.md)
