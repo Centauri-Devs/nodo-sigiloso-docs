@@ -28,5 +28,6 @@
 
 ## Extra
 
+* [Cómo extender la partición LVM default en Ubuntu](extra/como-extender-la-particion-lvm-default-en-ubuntu.md)
 * [Almacenamiento SSD](extra/almacenamiento-ssd.md)
 * [Uso de screen en Linux](extra/uso-de-screen-en-linux.md)
