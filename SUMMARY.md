@@ -12,8 +12,6 @@
 
 * [Reth y Grandine (Rust)](nodo-de-ethereum/reth-y-grandine-rust.md)
 * [Ethereum: Consenso y Ejecución](nodo-de-ethereum/ethereum-consenso-y-ejecucion.md)
-* [Quickstart](nodo-de-ethereum/quickstart.md)
-* [Publish your docs](nodo-de-ethereum/publish-your-docs.md)
 
 ## Nodo validador en Near.
 
