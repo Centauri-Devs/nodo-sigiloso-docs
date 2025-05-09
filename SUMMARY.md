@@ -12,10 +12,11 @@
 
 * [Near Protocol](near-protocol.md)
 
-## Getting Started
+## Nodo de Ethereum
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Reth y Grandine (Rust)](nodo-de-ethereum/reth-y-grandine-rust.md)
+* [Quickstart](nodo-de-ethereum/quickstart.md)
+* [Publish your docs](nodo-de-ethereum/publish-your-docs.md)
 
 ## Basics
 
