@@ -8,6 +8,8 @@ icon: ship
 
 Al correr múltiples clientes de Ethereum en una misma máquina, es importante evitar conflictos de puertos. Aquí documento cómo instalé y configuré **Reth** y **Grandine**, y cómo fui debuggeando para usar puertos alternativos correctamente.
 
+Mi máquina ya se encontraba corriendo el cliente de ejecución [Nethermind](https://www.nethermind.io/nethermind-client) y el cliente de consenso [Nimbus](https://nimbus.team/).
+
 ***
 
 ### ✅ Instalación de Reth
@@ -22,7 +24,7 @@ cargo install --locked --path bin/reth --bin reth
 ```
 
 {% hint style="info" %}
-Los archivos compilados están en target/release/reth. Sin embargo, el bin de reth fue instalado también.
+Los archivos compilados están en `target/release/reth`. Sin embargo, el ejecutable de reth fue instalado también.
 {% endhint %}
 
 ***
