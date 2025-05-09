@@ -15,6 +15,7 @@
 ## Nodo de Ethereum
 
 * [Reth y Grandine (Rust)](nodo-de-ethereum/reth-y-grandine-rust.md)
+* [Ethereum: Consenso y Ejecución](nodo-de-ethereum/ethereum-consenso-y-ejecucion.md)
 * [Quickstart](nodo-de-ethereum/quickstart.md)
 * [Publish your docs](nodo-de-ethereum/publish-your-docs.md)
 
@@ -29,6 +30,7 @@
 
 ## Extra
 
+* [Puertos alternativos en Reth y Grandine](extra/puertos-alternativos-en-reth-y-grandine.md)
 * [Cómo extender la partición LVM por defecto en Ubuntu 24.04](extra/como-extender-la-particion-lvm-por-defecto-en-ubuntu-24.04.md)
 * [Almacenamiento SSD](extra/almacenamiento-ssd.md)
 * [Uso de screen en Linux](extra/uso-de-screen-en-linux.md)
