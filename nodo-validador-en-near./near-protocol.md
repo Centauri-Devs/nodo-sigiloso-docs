@@ -1,10 +1,8 @@
 ---
-icon: 'n'
+icon: wind-turbine
 ---
 
-# Near Protocol
-
-## 🌱 Validando en NEAR con Nodo Sigiloso
+# Validando en NEAR con Nodo Sigiloso 🐿️
 
 Después de correr nodos en Bitcoin y Ethereum, operar en NEAR es notablemente más simple, gracias a las herramientas que el ecosistema ha desarrollado.
 

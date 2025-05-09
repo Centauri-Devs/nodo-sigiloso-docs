@@ -8,10 +8,6 @@
 * [Indexador Esplora](corre-tu-propia-infraestructura/indexador-esplora.md)
 * [Ethereum](corre-tu-propia-infraestructura/ethereum.md)
 
-***
-
-* [Near Protocol](near-protocol.md)
-
 ## Nodo de Ethereum
 
 * [Reth y Grandine (Rust)](nodo-de-ethereum/reth-y-grandine-rust.md)
@@ -19,14 +15,15 @@
 * [Quickstart](nodo-de-ethereum/quickstart.md)
 * [Publish your docs](nodo-de-ethereum/publish-your-docs.md)
 
-## Basics
+## Nodo validador en Near.
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Validando en NEAR con Nodo Sigiloso 🐿️](nodo-validador-en-near./near-protocol.md)
+* [Editor](nodo-validador-en-near./editor.md)
+* [Markdown](nodo-validador-en-near./markdown.md)
+* [Images & media](nodo-validador-en-near./images-and-media.md)
+* [Interactive blocks](nodo-validador-en-near./interactive-blocks.md)
+* [OpenAPI](nodo-validador-en-near./openapi.md)
+* [Integrations](nodo-validador-en-near./integrations.md)
 
 ## Extra
 
