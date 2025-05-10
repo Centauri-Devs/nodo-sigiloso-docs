@@ -5,7 +5,7 @@ icon: luchador-mask
 
 # Ethereum: Consenso y Ejecución
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption><p>Consenso entre los nodos de Ethereum</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption><p>Consenso entre los nodos de Ethereum</p></figcaption></figure>
 
 Ethereum necesita ejecutar dos tipos de clientes, o programas, que interactúan entre sí para hacer funcionar las aplicaciones descentralizadas (dApps). Cada uno de estos clientes tiene responsabilidades complementarias: uno se encarga del **consenso**, y el otro de la **ejecución**.
 
