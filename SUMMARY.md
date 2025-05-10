@@ -15,7 +15,7 @@
 
 ## Nodo de Near
 
-* [Validando en NEAR con Nodo Sigiloso 🐿️](nodo-de-near/near-protocol.md)
+* [Validando en NEAR con Nodo Sigiloso](nodo-de-near/near-protocol.md)
 * [Editor](nodo-de-near/editor.md)
 * [Markdown](nodo-de-near/markdown.md)
 * [Images & media](nodo-de-near/images-and-media.md)
