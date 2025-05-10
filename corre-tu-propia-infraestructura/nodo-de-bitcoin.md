@@ -193,6 +193,8 @@ $ docker exec -it bitcoin-mainnet bitcoin-cli \
 }
 ```
 
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Patzcuaro Michoacan</p></figcaption></figure>
+
 ### 🌳 Filosofía del Nodo Sigiloso
 
 En Nodo Sigiloso, correr un nodo no es un hobby: es una convicción. Creemos que ser parte de la red es el siguiente paso lógico para un bitcoiner que ya no solo quiere "hodlear", sino participar en la infraestructura misma.
