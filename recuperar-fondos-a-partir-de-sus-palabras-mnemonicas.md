@@ -11,6 +11,8 @@ Lo primero es recordar, cómo fue que se crearon las llaves de aquella cartera. 
 
 ***
 
+<figure><img src=".gitbook/assets/image (5).png" alt="" width="375"><figcaption></figcaption></figure>
+
 ## La ardilla resurge: Origen y recuperación de tu semilla
 
 **Antes de restaurar una cartera**, recuerda cómo se generaron tus claves:
