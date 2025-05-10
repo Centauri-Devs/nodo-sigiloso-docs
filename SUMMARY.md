@@ -13,15 +13,15 @@
 * [Reth y Grandine (Rust)](nodo-de-ethereum/reth-y-grandine-rust.md)
 * [Ethereum: Consenso y Ejecución](nodo-de-ethereum/ethereum-consenso-y-ejecucion.md)
 
-## Nodo validador en Near.
+## Nodo de Near
 
-* [Validando en NEAR con Nodo Sigiloso 🐿️](nodo-validador-en-near./near-protocol.md)
-* [Editor](nodo-validador-en-near./editor.md)
-* [Markdown](nodo-validador-en-near./markdown.md)
-* [Images & media](nodo-validador-en-near./images-and-media.md)
-* [Interactive blocks](nodo-validador-en-near./interactive-blocks.md)
-* [OpenAPI](nodo-validador-en-near./openapi.md)
-* [Integrations](nodo-validador-en-near./integrations.md)
+* [Validando en NEAR con Nodo Sigiloso 🐿️](nodo-de-near/near-protocol.md)
+* [Editor](nodo-de-near/editor.md)
+* [Markdown](nodo-de-near/markdown.md)
+* [Images & media](nodo-de-near/images-and-media.md)
+* [Interactive blocks](nodo-de-near/interactive-blocks.md)
+* [OpenAPI](nodo-de-near/openapi.md)
+* [Integrations](nodo-de-near/integrations.md)
 
 ## 🔑 Manejo de llaves
 
