@@ -4,6 +4,8 @@ icon: hard-drive
 
 # Cómo extender la partición LVM por defecto en Ubuntu 24.04
 
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>Tumba_de_Liliana_Crociati_de_Szaszak</p></figcaption></figure>
+
 Al instalar Ubuntu 24.04 en mi servidor recién ensamblado, me encontré con que el disco principal (`/`) estaba completamente lleno al 100%. Esto me sorprendió, ya que había instalado dos discos internos con amplio espacio de almacenamiento.
 
 Al revisar, noté que la instalación por defecto crea una partición encriptada que utiliza **LVM** (Logical Volume Management). LVM es una forma de virtualizar el almacenamiento, permitiendo manejar volúmenes lógicos sobre dispositivos físicos reales. Esto significa que podemos redimensionar estos volúmenes según nuestras necesidades, mientras exista espacio disponible en el grupo de volúmenes (VG).
