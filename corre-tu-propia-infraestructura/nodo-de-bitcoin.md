@@ -4,7 +4,7 @@ icon: bitcoin
 
 # Nodo de Bitcoin
 
-> Esta sección se actualizó por última vez el **2025-04-21**.
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Sincronizando un nodo de bitcoin</p></figcaption></figure>
 
 Correr tu propia infraestructura Bitcoin no solo es útil: **es una declaración radical de soberanía digital**. En esta sección aprenderás a correr tu propio nodo de Bitcoin e indexarlo con Esplora, utilizando `docker-compose` y asegurándote de que todo corra sobre almacenamiento sólido y fiable.
 
