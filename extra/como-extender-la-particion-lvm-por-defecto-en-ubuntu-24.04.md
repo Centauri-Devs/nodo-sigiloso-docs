@@ -86,6 +86,8 @@ Deberías ver ahora una partición mucho más grande asignada a `/`.
 
 ***
 
+<figure><img src="../.gitbook/assets/image (11).png" alt="" width="375"><figcaption></figcaption></figure>
+
 #### ✅ Resultado final esperado
 
 Después de completar estos pasos, tendrás tu volumen lógico y sistema de archivos ampliado, utilizando todo el espacio disponible en tus discos físicos.
