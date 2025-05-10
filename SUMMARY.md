@@ -32,6 +32,10 @@
 * [Las palabras son semillas](las-palabras-son-semillas.md)
 * [Recuperar fondos a partir de sus palabras mnemónicas](recuperar-fondos-a-partir-de-sus-palabras-mnemonicas.md)
 
+## Explorador API
+
+* [Usuario](explorador-api/usuario.md)
+
 ## 👽 Fuera de este mundo
 
 * [Puertos alternativos en Reth y Grandine](fuera-de-este-mundo/puertos-alternativos-en-reth-y-grandine.md)
