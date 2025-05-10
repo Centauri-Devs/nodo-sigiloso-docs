@@ -4,7 +4,7 @@ icon: ship
 
 # Puertos alternativos en Reth y Grandine
 
-
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption><p>José María Morelos y Pavón</p></figcaption></figure>
 
 Al correr múltiples clientes de Ethereum en una misma máquina, es importante evitar conflictos de puertos. Aquí documento cómo instalé y configuré **Reth** y **Grandine**, y cómo fui debuggeando para usar puertos alternativos correctamente.
 

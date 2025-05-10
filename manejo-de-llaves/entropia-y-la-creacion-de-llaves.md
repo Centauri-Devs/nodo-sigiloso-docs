@@ -6,7 +6,7 @@ icon: napster
 
 🔑 Entropía y la creación de llaves
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Primero que nada, hay que entender que una nueva llave pública —una nueva dirección— introduce entropía a todo el sistema. Es un nuevo nodo en el universo. La red responde generando nuevas conexiones, reorganizando sus caminos internos, reajustando rutas, como un bosque que se abre paso entre raíces antiguas.
 

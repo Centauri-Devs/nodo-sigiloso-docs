@@ -20,7 +20,7 @@ layout:
 
 # Welcome
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Bienvenid@ a la documentación oficial de **Nodo Sigiloso**, tu compañero discreto para operar infraestructura blockchain y construir exploradores multicadena.
 

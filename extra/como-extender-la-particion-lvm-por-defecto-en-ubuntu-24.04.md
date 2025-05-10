@@ -4,7 +4,7 @@ icon: hard-drive
 
 # Cómo extender la partición LVM por defecto en Ubuntu 24.04
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption><p><a href="https://es.wikipedia.org/wiki/Tumba_de_Liliana_Crociati_de_Szaszak">Tumba de Liliana Crociati de Szaszak</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption><p><a href="https://es.wikipedia.org/wiki/Tumba_de_Liliana_Crociati_de_Szaszak">Tumba de Liliana Crociati de Szaszak</a></p></figcaption></figure>
 
 Al instalar Ubuntu 24.04 en mi servidor recién ensamblado, me encontré con que el disco principal (`/`) estaba completamente lleno al 100%. Esto me sorprendió, ya que había instalado dos discos internos con amplio espacio de almacenamiento.
 
