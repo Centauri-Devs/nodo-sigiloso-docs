@@ -32,9 +32,9 @@
 * [Las palabras son semillas](las-palabras-son-semillas.md)
 * [Recuperar fondos a partir de sus palabras mnemónicas](recuperar-fondos-a-partir-de-sus-palabras-mnemonicas.md)
 
-## Extra
+## 👽 Fuera de este mundo
 
-* [Puertos alternativos en Reth y Grandine](extra/puertos-alternativos-en-reth-y-grandine.md)
-* [Cómo extender la partición LVM por defecto en Ubuntu 24.04](extra/como-extender-la-particion-lvm-por-defecto-en-ubuntu-24.04.md)
-* [Almacenamiento SSD](extra/almacenamiento-ssd.md)
-* [Uso de screen en Linux](extra/uso-de-screen-en-linux.md)
+* [Puertos alternativos en Reth y Grandine](fuera-de-este-mundo/puertos-alternativos-en-reth-y-grandine.md)
+* [Cómo extender la partición LVM por defecto en Ubuntu 24.04](fuera-de-este-mundo/como-extender-la-particion-lvm-por-defecto-en-ubuntu-24.04.md)
+* [Almacenamiento SSD](fuera-de-este-mundo/almacenamiento-ssd.md)
+* [Uso de screen en Linux](fuera-de-este-mundo/uso-de-screen-en-linux.md)
