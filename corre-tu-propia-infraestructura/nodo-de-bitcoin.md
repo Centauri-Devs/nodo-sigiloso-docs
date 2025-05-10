@@ -193,7 +193,7 @@ $ docker exec -it bitcoin-mainnet bitcoin-cli \
 }
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption><p>Patzcuaro Michoacan</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Patzcuaro Michoacan</p></figcaption></figure>
 
 ### 🌳 Filosofía del Nodo Sigiloso
 
