@@ -1,13 +1,8 @@
-# Palabras mnemonicas
+---
+icon: napster
+---
 
-Primero que nada, hay que entender que una nueva llave publica, o direccion, introduce entropia a todo el sistema. la red genera nuevas conecciones.
-
-Es difícil generar aleatoridad real. Los generadores de números aleatorios toman información que proviene del espacio para generar valores, y aun asi se les denomina pseudo aleatorios.
-
-Una vez, el usuario traiga una cadena de 24 bytes, 20 bytes, 18 bytes. De la cual nadie y nadie más que él sepa qué fue lo que originó esa llave.
-
-Hay una manera muy interesante de cómo se genero una llave para las L2. Por fis chatgpt, pon aqui un péqueno resumen de esa ceremonia para construir entropia a la llave inicial que iban a usar las L2 algo asi.\
-
+# Entropía y la creación de llaves
 
 🔑 Entropía y la creación de llaves
 

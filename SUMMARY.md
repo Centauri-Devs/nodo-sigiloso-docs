@@ -25,11 +25,11 @@
 
 ## 🔑 Manejo de llaves
 
-* [Palabras mnemonicas](manejo-de-llaves/palabras-mnemonicas.md)
+* [Entropía y la creación de llaves](manejo-de-llaves/entropia-y-la-creacion-de-llaves.md)
 
 ***
 
-* [Page](page.md)
+* [Las palabras son una semilla](las-palabras-son-una-semilla.md)
 
 ## Extra
 
