@@ -41,7 +41,7 @@ Aunque aún no producimos bloques ni chunks, estamos realizando endosos de maner
 
 ***
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### 💠 Delegar con propósito
 
