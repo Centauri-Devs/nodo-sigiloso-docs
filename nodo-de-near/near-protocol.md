@@ -41,6 +41,8 @@ Aunque aún no producimos bloques ni chunks, estamos realizando endosos de maner
 
 ***
 
+<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+
 ### 💠 Delegar con propósito
 
 Este nodo forma parte de la red de **Meta Pool**, y ha sido desplegado desde América del Norte con la intención de fortalecer la descentralización y aportar transparencia.
