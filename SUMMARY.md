@@ -23,6 +23,14 @@
 * [OpenAPI](nodo-validador-en-near./openapi.md)
 * [Integrations](nodo-validador-en-near./integrations.md)
 
+## 🔑 Manejo de llaves
+
+* [Palabras mnemonicas](manejo-de-llaves/palabras-mnemonicas.md)
+
+***
+
+* [Page](page.md)
+
 ## Extra
 
 * [Puertos alternativos en Reth y Grandine](extra/puertos-alternativos-en-reth-y-grandine.md)
