@@ -22,7 +22,7 @@ layout:
 
 <figure><img src=".gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
-Bienvenid@ a la documentación oficial de **Nodo Sigiloso**, tu compañero discreto para operar infraestructura blockchain y construir exploradores multi-chain.
+Bienvenid@ a la documentación oficial de **Nodo Sigiloso**, tu compañero discreto para operar infraestructura blockchain y construir exploradores multicadena.
 
 Tanto si eres operador de nodos, desarrollador curioso o simplemente quieres consultar datos de blockchains sin depender de terceros… este proyecto es para ti.
 
