@@ -2,6 +2,7 @@
 description: >-
   Las palabras mnemómincas nos ayudan a generar llaves privadas para cualquier ,
   o al menos un número muy grande, de blockchains.
+icon: mistletoe
 ---
 
 # Las palabras son semillas
