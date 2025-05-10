@@ -29,7 +29,8 @@
 
 ***
 
-* [Las palabras son una semilla](las-palabras-son-una-semilla.md)
+* [Las palabras son semillas](las-palabras-son-semillas.md)
+* [Recuperar fondos a partir de sus palabras mnemónicas](recuperar-fondos-a-partir-de-sus-palabras-mnemonicas.md)
 
 ## Extra
 
