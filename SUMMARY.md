@@ -12,6 +12,7 @@
 
 * [Reth y Grandine (Rust)](nodo-de-ethereum/reth-y-grandine-rust.md)
 * [Ethereum: Consenso y Ejecución](nodo-de-ethereum/ethereum-consenso-y-ejecucion.md)
+* [2025 Actualización Pectra](nodo-de-ethereum/2025-actualizacion-pectra.md)
 
 ## Nodo de Near
 
