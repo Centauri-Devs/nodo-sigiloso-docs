@@ -43,3 +43,4 @@
 * [Cómo extender la partición LVM por defecto en Ubuntu 24.04](fuera-de-este-mundo/como-extender-la-particion-lvm-por-defecto-en-ubuntu-24.04.md)
 * [Almacenamiento SSD](fuera-de-este-mundo/almacenamiento-ssd.md)
 * [Uso de screen en Linux](fuera-de-este-mundo/uso-de-screen-en-linux.md)
+* [UFW](fuera-de-este-mundo/ufw.md)
