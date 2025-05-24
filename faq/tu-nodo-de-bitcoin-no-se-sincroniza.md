@@ -26,7 +26,7 @@ bashCopyEditprogress=0.847138
 
 #### 💾 ¿Problemas de disco?
 
-✅ **Estás usando un disco externo montado en** `/media/honey/bitcoin_data`:
+✅ **Estás usando un disco externo montado en** `/media/user/bitcoin_data`:
 
 ```bash
 bashCopyEdit/dev/sda        916G  680G  190G  79%
