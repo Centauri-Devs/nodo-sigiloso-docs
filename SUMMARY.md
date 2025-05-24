@@ -48,3 +48,4 @@
 ## FAQ
 
 * [¿Tu nodo de Bitcoin no se sincroniza?](faq/tu-nodo-de-bitcoin-no-se-sincroniza.md)
+* [🔐 Manejo de Llaves y Caminos HD](faq/manejo-de-llaves-y-caminos-hd.md)
