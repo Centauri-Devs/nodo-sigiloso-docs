@@ -44,3 +44,7 @@
 * [Almacenamiento SSD](fuera-de-este-mundo/almacenamiento-ssd.md)
 * [Uso de screen en Linux](fuera-de-este-mundo/uso-de-screen-en-linux.md)
 * [UFW](fuera-de-este-mundo/ufw.md)
+
+## FAQ
+
+* [¿Tu nodo de Bitcoin no se sincroniza?](faq/tu-nodo-de-bitcoin-no-se-sincroniza.md)
