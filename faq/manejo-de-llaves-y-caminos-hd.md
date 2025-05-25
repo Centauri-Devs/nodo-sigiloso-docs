@@ -56,11 +56,7 @@ En Nodo Sigiloso recomendamos el siguiente esquema. Fácil de recordar, pero bie
 
 ### 🧠 Filosofía ardillesca: la semilla es sagrada
 
-Todas estas direcciones derivan de **una sola llave semilla** (seed phrase). Esta semilla es la **raíz de poder**: quien la tenga, tiene todo.
-
-Por eso, la regla de oro:
-
-> **Mientras la semilla no se vea comprometida, todo está bajo control.**
+Todas estas direcciones derivan de **una sola llave semilla** (seed phrase). Esta semilla es la **raíz de poder 🎋**.
 
 ***
 
@@ -71,14 +67,6 @@ Por eso, la regla de oro:
 * 🧩 Para mayor seguridad, **divídela en fragmentos** (Shamir Secret Sharing).
 * 🏔️ Guarda la semilla física en lugares separados y seguros.
 * 🐚 Las cuentas derivadas **no tienen que tener conexión entre ellas**, lo cual reduce riesgo si se compromete una rama.
-
-***
-
-### ✨ Recordatorio final
-
-Una ardilla sabia no guarda todas sus semillas en un solo hueco.
-
-Distribuye. Planea. Y sobre todo: **conoce tus caminos**.
 
 ***
 
