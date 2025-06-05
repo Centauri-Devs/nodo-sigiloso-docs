@@ -4,12 +4,14 @@ description: Para nodos de bitcoin corriendo en contenedores de docker
 
 # Cómo actualizar mi imagen en docker
 
+Esta vez, joven, señor, señorita, les venimos ofreciendo esto que es el paso a paso pues. Que agarro y que le digo, para correr la versión, la imagen de bitcoin en docker, más actualizada.
+
 #### 🛑 Step 1: Stop the node
 
 This stops the container but preserves data (assuming you're using a persistent volume):
 
 ```bash
-bashCopyEditdocker stop bitcoin-mainnet
+docker stop bitcoin-mainnet
 ```
 
 ***
@@ -19,7 +21,7 @@ bashCopyEditdocker stop bitcoin-mainnet
 This downloads the latest `bitcoin/bitcoin` image (even if tagged as `latest`, Docker won't auto-update unless you pull it):
 
 ```bash
-bashCopyEditdocker pull bitcoin/bitcoin:latest
+docker pull bitcoin/bitcoin:latest
 ```
 
 ***
@@ -29,7 +31,7 @@ bashCopyEditdocker pull bitcoin/bitcoin:latest
 The container is just a wrapper — this **won’t delete** your blockchain data if you're using a volume (double-check your `docker-compose.yml` to confirm this):
 
 ```bash
-bashCopyEditdocker rm bitcoin-mainnet
+docker rm bitcoin-mainnet
 ```
 
 ***
@@ -39,7 +41,7 @@ bashCopyEditdocker rm bitcoin-mainnet
 If you use `docker-compose.yml`, simply run:
 
 ```bash
-bashCopyEditdocker-compose up -d
+docker-compose up -d
 ```
 
 Or if you’re using `docker run`, re-run it with your original settings and volume mounts, something like:
