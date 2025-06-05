@@ -49,3 +49,7 @@
 
 * [¿Tu nodo de Bitcoin no se sincroniza?](faq/tu-nodo-de-bitcoin-no-se-sincroniza.md)
 * [🔐 Manejo de Llaves y Caminos HD](faq/manejo-de-llaves-y-caminos-hd.md)
+
+***
+
+* [Cómo actualizar mi imagen en docker](como-actualizar-mi-imagen-en-docker.md)
