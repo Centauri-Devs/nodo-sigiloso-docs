@@ -53,3 +53,7 @@
 ***
 
 * [Cómo actualizar mi imagen en docker](como-actualizar-mi-imagen-en-docker.md)
+
+## Blog Posts
+
+* [🌳 Cómo construí un bosque resiliente de nodos P2P](blog-posts/como-construi-un-bosque-resiliente-de-nodos-p2p.md)
